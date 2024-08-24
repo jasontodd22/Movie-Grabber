@@ -14,8 +14,8 @@ body {
 
 header {
     display: flex;
-    justify-content: flex-end;
-    padding: 10px 0;
+    justify-content: center;
+    padding: 20px 0;
 }
 
 #dark-mode-toggle {
@@ -55,14 +55,6 @@ main {
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4);
 }
 
-.movie-image {
-    width: 100%;
-    height: 200px;
-    background-size: cover;
-    background-position: center;
-    transition: opacity 0.3s;
-}
-
 .movie-info {
     padding: 15px;
     background: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent);
@@ -72,6 +64,7 @@ main {
 .movie-info h2 {
     margin: 0 0 10px;
     font-size: 24px;
+    color: #ff3f3f;
 }
 
 .movie-info p {
@@ -102,6 +95,7 @@ footer {
     position: relative;
 }
 
+/* Dark Mode Styles */
 .dark-mode {
     background-color: #121212;
     color: #e0e0e0;
@@ -154,4 +148,4 @@ footer {
     .movie {
         width: 100%;
     }
-}
+                    }
