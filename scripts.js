@@ -5,9 +5,9 @@ document.getElementById('dark-mode-toggle').addEventListener('click', () => {
 // Additional dynamic features
 document.querySelectorAll('.movie').forEach(movie => {
     movie.addEventListener('mouseover', () => {
-        movie.querySelector('.movie-image').style.opacity = '0.8';
+        movie.querySelector('.movie-info').style.opacity = '0.8';
     });
     movie.addEventListener('mouseout', () => {
-        movie.querySelector('.movie-image').style.opacity = '1';
+        movie.querySelector('.movie-info').style.opacity = '1';
     });
 });
